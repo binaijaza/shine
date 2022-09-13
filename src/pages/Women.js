@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import { useState } from "react";
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
@@ -48,26 +47,26 @@ export default function Women() {
       );
   };
   return <div>
-    <div id="map-container-google-1" class="z-depth-1-half map-container" style={{height: 500}}>
+    <div id="map-container-google-1" className="z-depth-1-half map-container" style={{height: 500}}>
   
 
-<iframe src={"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d103859.64360425822!2d45.30761424762317!3d35.56323754358026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40002c0536d143b1%3A0xf791750d4e215dea!2sSulaymaniyah!5e0!3m2!1sen!2siq!4v1662304339895!5m2!1sen!2siq"} width="600" height="450" style={{border:0}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<iframe title=" if" src={"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d103859.64360425822!2d45.30761424762317!3d35.56323754358026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40002c0536d143b1%3A0xf791750d4e215dea!2sSulaymaniyah!5e0!3m2!1sen!2siq!4v1662304339895!5m2!1sen!2siq"} width="600" height="450" style={{border:0}} allowfullscreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
 </div>
 
 
-<div class="bg-gray-500 text-gray-100 px-8 py-12">
+<div className="bg-gray-500 text-gray-100 px-8 py-12">
      
       <div
-        class="max-w-screen-xl mt-24 px-8 grid gap-8 grid-cols-1 md:grid-cols-2 md:px-12 lg:px-16 xl:px-32 py-16 mx-auto bg-gray-100 text-orange-500 rounded-lg shadow-lg">
-        <div class="flex flex-col justify-between">
+        className="max-w-screen-xl mt-24 px-8 grid gap-8 grid-cols-1 md:grid-cols-2 md:px-12 lg:px-16 xl:px-32 py-16 mx-auto bg-gray-100 text-orange-500 rounded-lg shadow-lg">
+        <div className="flex flex-col justify-between">
           <div>
-            <h2 class="text-4xl lg:text-5xl font-bold leading-tight">Lets talk ,Contact Us !</h2>
-            <div class="text-gray-700 mt-8">
-              Hate forms? Send us an <span class="underline">email</span> instead.
+            <h2 className="text-4xl lg:text-5xl font-bold leading-tight">Lets talk ,Contact Us !</h2>
+            <div className="text-gray-700 mt-8">
+              Hate forms? Send us an <span className="underline">email</span> instead.
             </div>
           </div>
-          <div class="mt-8 text-center">
-            <svg class="w-full" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink"
+          <div className="mt-8 text-center">
+            <svg className="w-full" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink"
               id="ae37f038-3a9e-4b82-ad68-fc94ba16af2a" data-name="Layer 1"
               viewBox="0 0 1096 574.74">
               <defs>
@@ -251,7 +250,7 @@ export default function Women() {
               <path
                 d="M716.31,652.89c2.61-4.84-.35-10.76-3.75-15.07s-7.56-8.8-7.47-14.29c.13-7.89,8.51-12.56,15.2-16.74a74.3,74.3,0,0,0,13.65-11,20.13,20.13,0,0,0,4.19-5.62c1.39-3.08,1.35-6.6,1.26-10q-.43-16.89-1.67-33.76"
                 transform="translate(-52 -162.63)" fill="none" stroke="#3f3d56" stroke-miterlimit="10"
-                stroke-width="4" />
+                strokeWidth="4" />
               <path d="M750.45,545.85a12.31,12.31,0,0,0-6.15-10.09l-2.76,5.45.09-6.6a12.31,12.31,0,1,0,8.82,11.24Z"
                 transform="translate(-52 -162.63)" fill="#667eea" />
               <path
@@ -276,7 +275,7 @@ export default function Women() {
               <path
                 d="M106.31,580.89c2.61-4.84-.35-10.76-3.75-15.07S95,557,95.09,551.53c.13-7.89,8.51-12.56,15.2-16.74a74.3,74.3,0,0,0,13.65-11,20.13,20.13,0,0,0,4.19-5.62c1.39-3.08,1.35-6.6,1.26-10q-.44-16.89-1.67-33.76"
                 transform="translate(-52 -162.63)" fill="none" stroke="#3f3d56" stroke-miterlimit="10"
-                stroke-width="4" />
+                strokeWidth="4" />
               <path d="M140.45,473.85a12.31,12.31,0,0,0-6.15-10.09l-2.76,5.45.09-6.6a12.31,12.31,0,1,0,8.82,11.24Z"
                 transform="translate(-52 -162.63)" fill="#667eea" />
               <path
@@ -301,7 +300,7 @@ export default function Women() {
               <path
                 d="M512.52,498.52c-2.61-4.83.35-10.75,3.76-15.06s7.55-8.8,7.46-14.29c-.12-7.9-8.5-12.56-15.2-16.74a74,74,0,0,1-13.64-11,19.78,19.78,0,0,1-4.2-5.61c-1.38-3.09-1.34-6.6-1.26-10q.45-16.89,1.67-33.76"
                 transform="translate(-52 -162.63)" fill="none" stroke="#3f3d56" stroke-miterlimit="10"
-                stroke-width="4" />
+                strokeWidth="4" />
               <path
                 d="M478.39,391.49a12.3,12.3,0,0,1,6.14-10.09l2.76,5.45-.08-6.6a12.62,12.62,0,0,1,4.05-.49,12.31,12.31,0,1,1-12.87,11.73Z"
                 transform="translate(-52 -162.63)" fill="#667eea" />
@@ -438,7 +437,7 @@ export default function Women() {
               <path
                 d="M888.39,577c2.61-4.83-.35-10.76-3.76-15.07s-7.55-8.79-7.46-14.29c.12-7.89,8.5-12.55,15.2-16.74a73.9,73.9,0,0,0,13.64-11,19.93,19.93,0,0,0,4.2-5.61c1.38-3.09,1.34-6.6,1.26-10q-.44-16.9-1.67-33.76"
                 transform="translate(-52 -162.63)" fill="none" stroke="#3f3d56" stroke-miterlimit="10"
-                stroke-width="4" />
+                strokeWidth="4" />
               <path
                 d="M922.52,469.93a12.29,12.29,0,0,0-6.14-10.08l-2.76,5.45.08-6.6a12.08,12.08,0,0,0-4.05-.49,12.31,12.31,0,1,0,12.87,11.72Z"
                 transform="translate(-52 -162.63)" fill="#667eea" />
@@ -465,7 +464,7 @@ export default function Women() {
               <path
                 d="M1047.39,729c2.61-4.83-.35-10.76-3.76-15.07s-7.55-8.79-7.46-14.29c.12-7.89,8.5-12.55,15.2-16.74a73.9,73.9,0,0,0,13.64-11,19.93,19.93,0,0,0,4.2-5.61c1.38-3.09,1.34-6.6,1.26-10q-.43-16.9-1.67-33.76"
                 transform="translate(-52 -162.63)" fill="none" stroke="#3f3d56" stroke-miterlimit="10"
-                stroke-width="4" />
+                strokeWidth="4" />
               <path
                 d="M1081.52,621.93a12.29,12.29,0,0,0-6.14-10.08l-2.76,5.45.08-6.6a12.08,12.08,0,0,0-4-.49,12.31,12.31,0,1,0,12.87,11.72Z"
                 transform="translate(-52 -162.63)" fill="#667eea" />
@@ -565,15 +564,15 @@ export default function Women() {
           </div>
         </div>
         <form ref={form} onSubmit={sendEmail}>
-        <div class="">
+        <div className="">
           <div>
-            <span class="uppercase text-sm text-gray-600 font-bold">Full Name</span>
-            <input class="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+            <span className="uppercase text-sm text-gray-600 font-bold">Full Name</span>
+            <input className="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
               type="text" placeholder=""/>
           </div>
-          <div class="mt-8">
-            <span class="uppercase text-sm text-gray-600 font-bold">Email</span>
-            <input class="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+          <div className="mt-8">
+            <span className="uppercase text-sm text-gray-600 font-bold">Email</span>
+            <input className="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
               type="text"/>
           </div>
           <div   id="message"
@@ -581,14 +580,14 @@ export default function Women() {
                   value={message}
                   onChange={handleChange}
                   className="mt-8" >
-            <span class="uppercase text-sm text-gray-600 font-bold">Message</span>
+            <span className="uppercase text-sm text-gray-600 font-bold">Message</span>
             <textarea
-              class="w-full h-32 bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"></textarea>
+              className="w-full h-32 bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"></textarea>
           </div>
-          <div class="mt-8">
+          <div className="mt-8">
             <button   type="submit"
                   value="Send"
-              class="uppercase text-sm font-bold tracking-wide bg-orange-500 text-gray-100 p-3 rounded-lg w-full focus:outline-none focus:shadow-outline">
+              className="uppercase text-sm font-bold tracking-wide bg-orange-500 text-gray-100 p-3 rounded-lg w-full focus:outline-none focus:shadow-outline">
               Send Message
             </button>
           </div>

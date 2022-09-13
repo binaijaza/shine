@@ -5,7 +5,7 @@ import { useState } from "react";
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 
-export default function () {
+export default function Footer () {
   const [message, setMessage] = useState("");
   const [error, setError] = useState(null);
 
@@ -64,7 +64,7 @@ export default function () {
 
           <div className="justify-between w-full mt-4 text-left lg:flex px-12 ml-16 ">
           <div className="flex-shrink-0 w-64  md:mx-0 md:text-left " style={{marginLeft:-80}}>
-            <a
+            <a href="/"
               className="
               flex
               items-center
@@ -76,7 +76,7 @@ export default function () {
             "
             >
               <Link to="/">
-                <img src={logo} className="h-16 w-auto"></img>
+                <img src={logo} className="h-16 w-auto" alt="test"></img>
               </Link>
             </a>
             <p className="mt-2 text-sm text-justify text-gray-500">
@@ -117,12 +117,12 @@ export default function () {
             </form>
             {error && <h2 style={{ color: "red" }}>{error}</h2>}
             <div className="flex justify-start mt-4 lg:mt-2">
-              <a href="https://www.facebook.com/" target="_blank">
+              <a href="https://www.facebook.com/" target="_blank" rel="noreferrer">
                 <svg
                   fill="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
                   className="w-6 h-6 text-orange-500"
                   viewBox="0 0 24 24"
                 >
@@ -132,13 +132,13 @@ export default function () {
               <a
                 className="ml-3"
                 href="https://twitter.com/i/flow/login"
-                target="_blank"
+                target="_blank" rel="noreferrer"
               >
                 <svg
                   fill="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
                   className="w-6 h-6 text-orange-500"
                   viewBox="0 0 24 24"
                 >
@@ -148,14 +148,14 @@ export default function () {
               <a
                 className="ml-3"
                 href="https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2F%3F__coig_login%3D1"
-                target="_blank"
+                target="_blank" rel="noreferrer"
               >
                 <svg
                   fill="none"
                   stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
                   className="w-6 h-6 text-orange-500"
                   viewBox="0 0 24 24"
                 >
@@ -166,14 +166,14 @@ export default function () {
               <a
                 className="ml-3"
                 href="https://www.linkedin.com/"
-                target="_blank"
+                target="_blank" rel="noreferrer"
               >
                 <svg
                   fill="currentColor"
                   stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="0"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="0"
                   className="w-6 h-6 text-orange-500"
                   viewBox="0 0 24 24"
                 >
@@ -193,22 +193,22 @@ export default function () {
               <ul className="mb-8 space-y-2 text-sm list-none">
                 <li>
                   <Link to="/">
-                    <a className="text-gray-600 hover:text-gray-900" href="#">
+                    <a className="text-gray-600 hover:text-gray-900" href="/#">
                       Home
                     </a>
                   </Link>
                 </li>
                 <li>
-                  <Link to="/women">
+                  <Link to="/accessories">
                     {" "}
-                    <a className="text-gray-600 hover:text-gray-900" href="">
+                    <a className="text-gray-600 hover:text-gray-900" href="/#">
                       Product
                     </a>
                   </Link>
                 </li>
                 <li>
-                  <Link to="/men">
-                    <a className="text-gray-600 hover:text-gray-900" href="">
+                  <Link to="/accessories">
+                    <a className="text-gray-600 hover:text-gray-900" href="/#">
                       Mens
                     </a>
                   </Link>
@@ -216,7 +216,7 @@ export default function () {
                 <li>
                   <Link to="/accessories">
                     {" "}
-                    <a className="text-gray-600 hover:text-gray-900" href="">
+                    <a className="text-gray-600 hover:text-gray-900" href="/#">
                       Accessories
                     </a>
                   </Link>
@@ -250,8 +250,8 @@ export default function () {
                   </a>
                 </li>
                 <li>
-                  <Link to="/contact">
-                    <a className="text-gray-600 hover:text-gray-900" href="">
+                  <Link to="/women">
+                    <a className="text-gray-600 hover:text-gray-900" href="/#">
                       Contact Us
                     </a>
                   </Link>

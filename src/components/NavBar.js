@@ -3,7 +3,6 @@ import { Fragment } from "react";
 import { Disclosure, Menu, Transition } from "@headlessui/react";
 import {  MenuIcon, XIcon } from "@heroicons/react/outline";
 import logoGif from "../Media/Media1.gif";
-import { useSelector } from "react-redux";
 
 
 const navigation = [
@@ -78,9 +77,9 @@ export default function Example() {
            
 
                
-                <button type="button" class="icon-button">
-    <span class=" fa fa-shopping-cart"></span>
-    <span class="icon-button__badge">{}5</span>
+                <button type="button" className="icon-button">
+    <span className=" fa fa-shopping-cart"></span>
+    <span className="icon-button__badge">{}5</span>
     
   </button>
                 
@@ -110,7 +109,7 @@ export default function Example() {
                       <Menu.Item>
                         {({ active }) => (
                           <a
-                            href="#"
+                            href="/#"
                             className={classNames(
                               active ? "bg-gray-100" : "",
                               "block px-4 py-2 text-sm text-gray-700"
@@ -123,7 +122,7 @@ export default function Example() {
                       <Menu.Item>
                         {({ active }) => (
                           <a
-                            href="#"
+                            href="/#"
                             className={classNames(
                               active ? "bg-gray-100" : "",
                               "block px-4 py-2 text-sm text-gray-700 "
@@ -136,7 +135,7 @@ export default function Example() {
                       <Menu.Item>
                         {({ active }) => (
                           <a
-                            href="#"
+                            href="/#"
                             className={classNames(
                               active ? "bg-gray-100" : "",
                               "block px-4 py-2 text-sm text-gray-700 "

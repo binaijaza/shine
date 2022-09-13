@@ -50,7 +50,7 @@ export default function Brand() {
                   href=""
                   className="c-card block bg-white  rounded-lg overflow-hidden"
                 >
-                  <div class="relative pb-48 overflow-hidden">
+                  <div className="relative pb-48 overflow-hidden">
                     <img
                       className="absolute inset-0 h-full w-full object-cover"
                       src={person.uri}

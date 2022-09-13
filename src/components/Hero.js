@@ -1,11 +1,8 @@
 import React from "react";
 
 
-
-import { useNavigate } from "react-router-dom";
-
 export default function Hero() {
-  const navigate = useNavigate();
+ 
   return (
     <div className="relative h-screen w-full flex items-center justify-center text-center bg-cover bg-center hero">
       <div className="absolute top-0 right-0 bottom-0 left-0 bg-gray-100 opacity-25"></div>
