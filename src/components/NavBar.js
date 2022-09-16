@@ -20,8 +20,7 @@ function classNames(...classes) {
 
 export default function Example() {
 
-  // const  state=useSelector((state)=> state.handleCart)
-   
+ 
   return (
     <Disclosure as="nav" className="z-30 ">
       {({ open }) => (
